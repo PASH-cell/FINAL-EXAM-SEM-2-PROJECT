@@ -1,0 +1,24 @@
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:18px 32px;background:#1c263d;border-bottom:1px solid #243244;position:sticky;top:0;z-index:10}
+.logo{font-size:20px;font-weight:700;color:#38bdf8}
+.navbar nav a{color:#e5e7eb;text-decoration:none;margin-left:24px;font-weight:600}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#111c31;color:#e5e7eb;line-height:1.6}
+.hero{padding:80px 24px 40px;text-align:center}
+.hero-content{max-width:900px;margin:0 auto}
+.eyebrow{color:#38bdf8;text-transform:uppercase;letter-spacing:1.5px;font-size:12px;margin-bottom:12px}
+.people{color:#537888;text-transform:uppercase;letter-spacing:1.5px;font-size:12px;margin-bottom:12px}
+.hero h1{font-size:3rem;margin-bottom:12px}
+.slogan{font-size:1.2rem;color:#cbd5e1;margin-bottom:10px}
+.description{color:#94a3b8}
+.categories{max-width:1100px;margin:0 auto;padding:24px}
+.categories h2,.info-section h2{margin-bottom:18px;font-size:1.8rem}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{display:block;text-decoration:none;color:#e5e7eb;background:#111827;border:1px solid #243244;border-radius:16px;padding:20px;min-height:150px;transition:transform .2s ease,border-color .2s ease}
+.card:hover{transform:translateY(-4px);border-color:#38bdf8}
+.card h3{color:#38bdf8;margin-bottom:10px}
+.info-section{max-width:1100px;margin:24px auto;padding:24px;background:#111827;border:1px solid #243244;border-radius:16px}
+.submission-form{display:grid;gap:14px;margin-top:12px}
+.submission-form input,.submission-form textarea{width:100%;padding:14px;border:1px solid #334155;border-radius:10px;background:#0b1220;color:#e5e7eb}
+.submission-form textarea{min-height:120px;resize:vertical}
+.submission-form button{padding:14px;border:none;border-radius:10px;background:#38bdf8;color:#0b1220;font-weight:700;cursor:pointer}
+.back-link{display:inline-block;margin-top:16px;color:#38bdf8;text-decoration:none;font-weight:700}
